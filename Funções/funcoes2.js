@@ -34,4 +34,36 @@ function contagemRegressiva(inicio=10) {
         inicio--
     }
 }
-contagemRegressiva(10);
+//contagemRegressiva();
+
+//4 - Função apresentação como nome, idade e profissão
+// "Olá, eu sou [nome], tenho [idade] anos e sou [profissao]."
+
+function apresentacao(nome='Anelise', idade='28', profissao='Engenheira Civil') {
+    console.log(`Olá, eu sou ${nome}, tenho ${idade} anos e sou ${profissao}.`)
+}
+
+//apresentacao()
+
+//5 - mensagemPersonalizada com parametros mensagem e estilo. Com estilo padrão 'normal'.
+function mensagemPersonalizada(mensagem, estilo='normal') {
+    switch (estilo) {
+        case 'normal':
+            console.log(`mensagem: "${mensagem}"
+formatação: normal`);
+            break;
+        case 'negrito':
+            console.log(`mensagem: "${mensagem}"
+formatação: negrito`);
+            break;
+        case 'italico':
+            console.log(`mensagem: "${mensagem}"
+formatação: itálico`);
+            break;
+        default:
+            break;
+    }
+}
+
+//mensagemPersonalizada('Bom dia');
+

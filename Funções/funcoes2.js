@@ -67,3 +67,58 @@ formatação: itálico`);
 
 //mensagemPersonalizada('Bom dia');
 
+//Função com retorno
+function criarMensagemDeSaudacao(nome='Anelise') {
+    const mensagem = `Hello, ${nome}`;
+    return mensagem;
+}
+
+//let msg = criarMensagemDeSaudacao();
+//console.log(msg);
+
+//console.log(criarMensagemDeSaudacao());
+
+//1 - Função somar com dois números e retorne a soma deles
+function somar(num1,num2) {
+    const soma = num1 + num2;
+    return soma;
+}
+
+//let soma = somar(2,2);
+//console.log(soma);
+
+//console.log(somar(2,2));
+
+//2 - Função ePar com um numero e retorne true ou false
+function ePar (numero) {
+    return (numero %2==0)
+}
+
+//console.log(ePar(52));
+
+//3 - Função maiorNumero com três números e retorne o maior.
+function maiorNumero(num1, num2, num3) {
+    let maior = num1
+    if (num2 > num1) {
+        maior = num2;
+    }
+    if (num3 > maior) {
+        maior = num3;
+    }
+    return maior
+}
+
+//console.log(`O maior número é: ${maiorNumero(5, 2, 7)}`);
+
+//4 - Função calcularIMC com peso e a altura e retorne o IMC
+function calcularIMC(peso, altura) {
+    const IMC = peso / (altura^2);
+    return IMC
+}
+
+//let indice = calcularIMC(89,1.78);
+//console.log(indice.toFixed(2));
+
+//console.log(calcularIMC(89,1.78).toFixed(2));
+
+

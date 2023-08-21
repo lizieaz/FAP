@@ -1,13 +1,13 @@
 readline = require('readline-sync');
 
+//1 - Divisão por zero
 let numero = readline.question('Digite o número: ');
 let divisor = readline.question('Digite o divisor: ');
 
-if (divisor === 0) {
 try {
-    throw "Divisão por zero"
-} catch (erro) {
-    console.log("[Erro]");
+    if (divisor === 0) {
+    throw 'Valor negado'
+} catch {
     console.log("Divisão por zero");
     }
 }

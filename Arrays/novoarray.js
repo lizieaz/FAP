@@ -63,15 +63,27 @@
 // itere pelo array, verificando se cada número é par. Se for par, adicione-o a
 // um novo array. No final, exiba o novo array com os números pares.
 
-// const numeros = [12,5,8,21,16,7];
+// const numeros = [12, 5, 8, 21, 16, 7];
 // const arrpar = [];
+
+// for (const i in numeros) {
+//     if ((numeros, i) %2 == 0) {
+//         arrpar.push(numeros[i]);
+//     }
+// }
+
+// for (const item of numeros) {
+//     if (item %2 == 0) {
+//         arrpar.push(item)
+//     }
+// }
 
 // for (let i = 0; i < numeros.length; i++) {
 //         if (numeros[i] %2 == 0) {
 //             arrpar.push(numeros[i]);
 //     }}
 
-//     console.log(`Array com números pares: ${arrpar}`);
+// console.log(`Array com números pares: ${arrpar}`);
 
 //4- Considere um objeto com informações de estudantes: const estudantes = { alice:
 //18, bob: 20, carol: 19, david: 21 }; Utilize um loop "for...in" para verificar se há um
@@ -91,16 +103,16 @@
 //     }
 // }
 
-estudantes = {Alice: 18, Bob: 20, Carol: 19, David: 21};
+// estudantes = {Alice: 18, Bob: 20, Carol: 19, David: 21};
 
-for (const i in estudantes) {
-    if (estudantes[i] === 19) {
-        console.log(estudantes[i]);
-    }
-}
+// for (const i in estudantes) {
+//     if (estudantes[i] === 19) {
+//         console.log(estudantes[i]);
+//     }
+// }
 
 
-// Imagine que você tem uma matriz bidimensional representando uma grade de pontos:
+//5- Imagine que você tem uma matriz bidimensional representando uma grade de pontos:
 //const pontos = [ [2, 5, 8], [3, 9, 12], [4, 6, 10] ]; Utilize dois loops "for"
 //aninhados para calcular a soma de todos os elementos da matriz e exibir o resultado.
 

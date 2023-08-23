@@ -144,3 +144,16 @@
 //       }
 //     console.log();
 //     }
+
+function buscar(array, buscado) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === buscado) {
+            console.log(`O elemento igual a ${buscado} está na posição ${i} do array`)
+        }
+    }
+    console.log("Elemento não encontrado")
+}
+
+const numeros = [15, 8, 10, 25, 12, 30, 5, 20, 18, 7];
+
+buscar(numeros, 30);
